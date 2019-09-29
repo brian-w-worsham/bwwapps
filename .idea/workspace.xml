@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfeaff52-55ee-4f9e-9607-6a8e48cc2934" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bwwapps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homestead.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Homestead.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bwwPhpApps/classes/BwwClasses/Controllers/Forum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bwwPhpApps/public/js/forum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bwwPhpApps/public/locale/english/forum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bwwPhpApps/public/locale/english/forumthread.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bwwPhpApps/public/locale/spanish/forum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bwwPhpApps/public/locale/spanish/forumthread.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bwwPhpApps/templates/forum.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bwwPhpApps/templates/forumthread.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bwwPhpApps/classes/BwwClasses/BwwRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/bwwPhpApps/classes/BwwClasses/BwwRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bwwPhpApps/public/locale/english/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/bwwPhpApps/public/locale/english/layout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bwwPhpApps/public/locale/spanish/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/bwwPhpApps/public/locale/spanish/layout.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bwwPhpApps/templates/layout.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/bwwPhpApps/templates/layout.html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +31,56 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Homestead" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Homestead" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Homestead" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="homestead: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bwwapps" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="JSON File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bwwPhpApps" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\myGit\VM\bwwapps\.idea" />
+      </set>
+    </option>
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -52,6 +103,7 @@
           <mapping local-root="$PROJECT_DIR$/bwwPhpApps/public" remote-root="/home/vagrant/Code/bwwPhpApps/public" />
         </path_mappings>
       </server>
+      <server host="PhpStorm 2019.2" id="ae5cc138-414a-4321-a4e4-8567ee72d010" name="PhpStorm 2019.2" port="63342" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
@@ -84,11 +136,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1NeCJNL8jMHger5msW4zbwUqiFv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/PHP7" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bwwPhpApps/public/locale/spanish" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,10 +157,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myGit\VM\bwwapps\bwwPhpApps\public\locale\spanish" />
       <recent name="C:\PHP7" />
     </key>
   </component>
@@ -120,6 +179,9 @@
     </option>
   </component>
   <component name="RunManager" selected="PHP Web Page.Homestead">
+    <configuration default="true" type="JavascriptDebugType" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
     <configuration name="bww.phpapps JS" type="JavascriptDebugType" uri="http://bww.phpapps" useFirstLineBreakpoints="true">
       <method v="2" />
     </configuration>
@@ -132,7 +194,7 @@
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/bwwPhpApps/public/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="Homestead" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" server_name="homestead">
+    <configuration name="Homestead" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="homestead">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="homestead">
@@ -151,6 +213,16 @@
         <item itemvalue="PHP Script.DatabaseConnection.php" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -174,6 +246,69 @@
       <workItem from="1562459202142" duration="2378000" />
       <workItem from="1562461968964" duration="946000" />
       <workItem from="1562462952089" duration="1546000" />
+      <workItem from="1562508123649" duration="20010000" />
+      <workItem from="1562679047939" duration="6953000" />
+      <workItem from="1562730621193" duration="682000" />
+      <workItem from="1562849744584" duration="2368000" />
+      <workItem from="1562893123377" duration="637000" />
+      <workItem from="1562895062378" duration="9404000" />
+      <workItem from="1562971513681" duration="82000" />
+      <workItem from="1562971766153" duration="10110000" />
+      <workItem from="1563041887318" duration="12531000" />
+      <workItem from="1563281515264" duration="7384000" />
+      <workItem from="1563302110855" duration="3963000" />
+      <workItem from="1563404350598" duration="15364000" />
+      <workItem from="1563495700785" duration="8595000" />
+      <workItem from="1563593481304" duration="26000" />
+      <workItem from="1563975921037" duration="73000" />
+      <workItem from="1564052044813" duration="5455000" />
+      <workItem from="1564455455101" duration="504000" />
+      <workItem from="1564456276541" duration="45971000" />
+      <workItem from="1564791321454" duration="1720000" />
+      <workItem from="1564844324065" duration="5748000" />
+      <workItem from="1564889468163" duration="7260000" />
+      <workItem from="1564937578941" duration="7111000" />
+      <workItem from="1565346385123" duration="4492000" />
+      <workItem from="1565440489834" duration="42695000" />
+      <workItem from="1565787188981" duration="2414000" />
+      <workItem from="1565821336162" duration="7118000" />
+      <workItem from="1566782419108" duration="136000" />
+      <workItem from="1566784781038" duration="588000" />
+      <workItem from="1566785402687" duration="4232000" />
+      <workItem from="1566950962601" duration="12884000" />
+      <workItem from="1567031647387" duration="3806000" />
+      <workItem from="1567127871058" duration="3649000" />
+      <workItem from="1567373975722" duration="1546000" />
+      <workItem from="1567417998851" duration="4723000" />
+      <workItem from="1567436759213" duration="9174000" />
+      <workItem from="1567479089744" duration="5508000" />
+      <workItem from="1567726661480" duration="803000" />
+      <workItem from="1567727855781" duration="3884000" />
+      <workItem from="1567765965622" duration="4168000" />
+      <workItem from="1567881417540" duration="1278000" />
+      <workItem from="1567953699291" duration="2568000" />
+      <workItem from="1567984883027" duration="6232000" />
+      <workItem from="1568036007393" duration="3988000" />
+      <workItem from="1568072510259" duration="2098000" />
+      <workItem from="1568160013464" duration="8595000" />
+      <workItem from="1568238526372" duration="44000" />
+      <workItem from="1568242459519" duration="6966000" />
+      <workItem from="1568416117932" duration="8611000" />
+      <workItem from="1568575173589" duration="19000" />
+      <workItem from="1568576852803" duration="2865000" />
+      <workItem from="1568683157081" duration="4281000" />
+      <workItem from="1568756247564" duration="4275000" />
+      <workItem from="1568799519433" duration="8722000" />
+      <workItem from="1569107971789" duration="9584000" />
+      <workItem from="1569280082114" duration="52000" />
+      <workItem from="1569280508921" duration="1551000" />
+      <workItem from="1569319252098" duration="2373000" />
+      <workItem from="1569459510932" duration="2078000" />
+      <workItem from="1569555182421" duration="7645000" />
+      <workItem from="1569629685676" duration="12881000" />
+      <workItem from="1569745187315" duration="568000" />
+      <workItem from="1569778870032" duration="63000" />
+      <workItem from="1569778958023" duration="226000" />
     </task>
     <servers />
   </component>
@@ -193,14 +328,24 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/bwwPhpApps/public/js/pyramid.js</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
+        <breakpoint type="php-exception">
+          <properties name="Warning" />
+          <option name="timeStamp" value="26" />
+        </breakpoint>
+        <breakpoint enabled="true" type="php-exception">
+          <properties name="Exception" />
+          <option name="timeStamp" value="27" />
+        </breakpoint>
+        <breakpoint enabled="true" type="php-exception">
+          <properties name="Deprecated" />
+          <option name="timeStamp" value="29" />
+        </breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="javascript-exception" />
